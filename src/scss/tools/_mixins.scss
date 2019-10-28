@@ -1,0 +1,33 @@
+@mixin mq ($breakpoint) {
+  @if map-has-key($breakpoints, $breakpoint) {
+    @media screen and (min-width: map-get($breakpoints, $breakpoint)) {
+      @content; 
+    }
+  } @else if type-of($breakpoint) == number and unit($breakpoint) == 'px' {
+    @media screen and (min-width: $breakpoint) {
+      @content;
+    }
+  }
+}
+
+// FIXME: Verificar si funciona la validación
+
+@mixin flex-responsive ($base) {
+  @if type-of($base) == number and unit($base) == 'px' or unit($base) == 'em' {
+    flex: 1 1 $base;
+  } @else {
+    @error 'Error: el parámetro #{$base} no es válido. Utilice valores en px ó em';
+  }
+}
+
+@mixin hover-change-color ($color) {
+  @if type-of($color) == color {
+    &:hover{
+      background-color: darken($color, 5%);
+      cursor: pointer;
+      @content;
+    }
+  } @else {
+    @error 'Error: el parámetro #{color} no es válido. Utilice un valor de tipo color';
+  }
+}

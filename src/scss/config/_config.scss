@@ -1,0 +1,22 @@
+:root {
+  --max-width: 1200px;
+  --header-hight: 4rem;
+  --lateral-paddings: 16px;
+}
+
+// z-index
+
+:root {
+  --z-back: -10;
+  --z-normal: 1;
+  --z-tooltip: 10;
+  --z-fixed: 100;
+  --z-modal: 1000;
+}
+
+$breakpoints: (
+  small: 0,
+  medium: 40rem,  // 640px
+  large: 62rem,   // 992px
+  x-large: 75rem, //1200px
+) !default;
