@@ -1,0 +1,17 @@
+.products-grid {
+  display: grid;
+  grid-gap: 1.5rem;
+  margin-bottom: var(--header-height);
+
+  @include mq(medium) {
+    grid-template-columns: repeat(2, 1fr);
+
+  }
+
+  @include mq(large) {
+    // background-color: red;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 1rem;
+
+  }
+}

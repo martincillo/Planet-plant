@@ -11,10 +11,14 @@ html {
   box-sizing: inherit;
 }
 
-a {
-  text-decoration: none;  
+body {
+  background-color: var(--bg-color);
 }
 
-img {
-  display: block;
+a {
+  text-decoration: none;
 }
+
+// img {
+//   display: block;
+// }

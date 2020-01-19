@@ -1,12 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Document</title>
+  <title>Shopping Cart</title>
+  <link rel="stylesheet" href="./css/styles.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+    integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
 </head>
+
 <body>
-  
+  <header class="header">
+    <div class="container flex justify-content-between align-items-center">
+      <div class="header__logo">
+        <a href="#">Planet Plant</a>
+      </div>
+      <div class="header__cart flex">
+        <div class="amount" id="amount">
+          $0.00
+        </div>
+        <div class="cart">
+          <span>
+            <i class="fas fa-shopping-cart"></i>
+          </span>
+          <span id="total-products" class="tag-total">
+            0
+          </span>
+        </div>
+      </div>
+    </div>
+  </header>
+  <section class="select container">
+    <div class="">
+      <select name="order" class="order" id="order-products">
+        <option value selected disabled>Ordenar por</option>
+        <option value="0">Más costoso</option>
+        <option value="1">Más barato</option>
+      </select>
+    </div>
+  </section>
+  <main class="main">
+    <div class="container">
+      <section id="products" class="products-grid"></section>
+    </div>
+  </main>
+  <footer class="footer container">
+    <p class="footer__description">Todos los derechos reservados a Planet Plant</p>
+  </footer>
+
+  <script src="./js/scripts-min.js"></script>
 </body>
+
 </html>

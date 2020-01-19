@@ -1,0 +1,85 @@
+[{
+    "id": 1,
+    "name": "Planta 1",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "price": 300.00,
+    "image": "./assets/img/plant-1.jpeg"
+  },
+  {
+    "id": 2,
+    "name": "Planta 2",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "price": 150.00,
+    "image": "./assets/img/plant-2.jpeg"
+  },
+  {
+    "id": 3,
+    "name": "Planta 3",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "price": 500.00,
+    "image": "./assets/img/plant-3.jpeg"
+  },
+  {
+    "id": 4,
+    "name": "Planta 4",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "price": 200.00,
+    "image": "./assets/img/plant-4.jpeg"
+  },
+  {
+    "id": 5,
+    "name": "Planta 5",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "price": 170.00,
+    "image": "./assets/img/plant-5.jpeg"
+  },
+  {
+    "id": 6,
+    "name": "Planta 6",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "price": 620.00,
+    "image": "./assets/img/plant-6.jpeg"
+  },
+  {
+    "id": 7,
+    "name": "Planta 7",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "price": 340.00,
+    "image": "./assets/img/plant-7.jpeg"
+  },
+  {
+    "id": 8,
+    "name": "Planta 8",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "price": 400.00,
+    "image": "./assets/img/plant-8.jpeg"
+  },
+  {
+    "id": 9,
+    "name": "Planta 9",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "price": 250.00,
+    "image": "./assets/img/plant-9.jpeg"
+  },
+  {
+    "id": 10,
+    "name": "Planta 10",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "price": 300.00,
+    "image": "./assets/img/plant-10.jpeg"
+  },
+  {
+    "id": 11,
+    "name": "Planta 11",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "price": 620.00,
+    "image": "./assets/img/plant-11.jpeg"
+  },
+  {
+    "id": 12,
+    "name": "Planta 12",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "price": 510.00,
+    "image": "./assets/img/plant-12.jpeg"
+  }
+]

@@ -1,0 +1,52 @@
+.product {
+  border: solid 1px #BBB;
+  padding: 1rem;
+
+  &__image {
+    // width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+
+    img {
+      height: 166px;
+      width: 100%;
+      object-fit: cover;
+      object-position: center;
+    }
+  }
+
+  &__title {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+
+  &__info {
+    margin-bottom: 1rem;
+  }
+
+  &__footer {
+    @include mq(large) {
+      flex-wrap: wrap;
+    }
+  }
+
+  &__button {
+    @extend %buttons;
+    width: 70%;
+
+    @include mq(large) {
+      @include hover-change-color($primary-color);
+      margin-top: .5rem;
+      padding: .5rem .2rem;
+      width: 100%;
+      order: 1
+    }
+  }
+
+  &__price {
+    margin-top: 0;
+    margin-bottom: 0;
+    width: 30%;
+    font-size: 1.2rem;
+  }
+}
